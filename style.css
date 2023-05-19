@@ -1,0 +1,98 @@
+*{
+    background-color: #efe5ef;
+    font-family: 'Inter', sans-serif;
+    font-family: Inter;
+font-size: 32px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;}
+
+.logo-alura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width:2%;
+}
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #6806a1;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+::placeholder {color: #6806a1;}
+    .text-area:focus {
+        outline: none
+}
+.mensagem{
+    background-color: black;
+    background-image: url(menina.jpg);
+    border: none;
+    border-radius: 24px;
+    color:rgb(153, 43, 226);
+    margin-left: 98 px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+}
+.mensagem:focus {
+    outline:none 
+}
+.botoes{
+    display: flex;
+    margin-top: 18px;
+    }
+    .btncriptografar{
+        background-color: #d8dfe8;
+        border: 1px solid #6806a1;
+        border-radius: 24px;
+        color: #6806a1;
+        cursor: pointer;
+        height:67px;
+        margin-left: 30px;
+        width: 328px;
+    
+    }
+    .btndescriptografar{
+        background-color: #d8dfe8;
+        border: 1px solid #6806a1;
+        border-radius: 24px;
+        color: #6806a1;
+        cursor: pointer;
+        height:67px;
+        margin-left: 30px;
+        width: 328px;
+    
+    }
+    .output{
+        background-color: #d8dfe8;
+        border: 1px solid #6806a1;
+        border-radius: 24px;
+        color: #6806a1;
+        cursor: pointer;
+        height:67px;
+        margin-left: 30px;
+        width: 328px;
+        position:static;
+         
+         
+    
+    }
+    .informação{
+        color:black;
+        font-size:18px;
+    }
+    .Copyright{
+           text-align: center; 
+        color: black;
+            font-size: 13px;
+            margin: 20px 0 0;
+
+    }
+    

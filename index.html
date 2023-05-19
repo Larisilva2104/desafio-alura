@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img  class="logo-alura" src="logoalura.png" alt="Logo da Alura">
+    </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="41" rows="4" placeholder="=Digite seu texto"></textarea>
+                
+                <div class="informação">
+                    <h6>Apenas letras minúsculas e sem acento.</h6>
+                </div>
+    
+                <div class="botoes">
+                    <button class="btncriptografar" onclick="btncriptografar()">Criptografar</button>
+                    <button class="btndescriptografar" onclick="btndescriptografar()">Descriptografar</button>
+                </div>
+     
+            </section>
+            
+            <section>
+                <div class="btn-copiar">
+                <textarea class="mensagem" id="texto-copiar" cols="20" rows="10"></textarea>
+            <button id="btn-copiar" onclick="copiar()">Copiar</button>
+        </div>
+        </section>
+
+            
+            
+
+</main>
+<footer>
+    <p class="Copyright">&copy;Challenge Alura-Larissa Ferreira</p>
+</footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
