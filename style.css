@@ -1,7 +1,7 @@
 *{
-    background-color: #efe5ef;
-    font-family: 'Inter', sans-serif;
-    font-family: Inter;
+background: linear-gradient(#9a83a7, #e27c9b);
+font-family: 'Inter', sans-serif;
+font-family: Inter;
 font-size: 32px;
 font-weight: 400;
 line-height: 48px;
@@ -70,7 +70,7 @@ main {
         width: 328px;
     
     }
-    .output{
+    .btn-copiar{
         background-color: #d8dfe8;
         border: 1px solid #6806a1;
         border-radius: 24px;
