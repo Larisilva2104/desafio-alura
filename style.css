@@ -13,32 +13,34 @@ text-align: left;}
     padding-top: 10px;
     width:2%;
 }
-main {
+.main {
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
 }
 .text-area{
+    margin-left: 30px;
     border: none;
-    color: #6806a1;
+    color: black;
     margin-top: 90px;
     text-transform: lowercase;
 
 }
-::placeholder {color: #6806a1;}
+::placeholder {color: black;}
     .text-area:focus {
         outline: none
 }
 .mensagem{
-    background-color: black;
     background-image: url(menina.jpg);
-    border: none;
-    border-radius: 24px;
-    color:rgb(153, 43, 226);
-    margin-left: 98 px;
-    margin-top: 20px;
-    padding-left: 20px;
-    position: fixed;
+    position: absolute;
+width: 400px;
+height: 500px;
+left: 800px;
+top: 40px;
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+
+
 
 }
 .mensagem:focus {
@@ -70,15 +72,17 @@ main {
         width: 328px;
     
     }
-    .btn-copiar{
+    #btn-copiar{
         background-color: #d8dfe8;
         border: 1px solid #6806a1;
         border-radius: 24px;
         color: #6806a1;
         cursor: pointer;
         height:67px;
-        margin-left: 30px;
-        width: 328px;
+        left: 500px;
+        margin-left: 850px;
+        margin-top: 100px;
+        width: 320px;
         position:static;
          
          
@@ -87,6 +91,7 @@ main {
     .informação{
         color:black;
         font-size:18px;
+        margin-left: 30px;
     }
     .Copyright{
            text-align: center; 

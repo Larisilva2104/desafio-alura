@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
     <title>Encriptador</title>
@@ -28,19 +29,20 @@
      
             </section>
             
-            <section>
-                <div class="btn-copiar">
+            <section class="saida">
+                <!-- Remove o position: fixed da class mensagem -->
                 <textarea class="mensagem" id="texto-copiar" cols="20" rows="10"></textarea>
-            <button id="btn-copiar" onclick="copiar()">Copiar</button>
-        </div>
-        </section>
+                <!-- coloca uma class no botão ou no CSS muda .btn-copiar para #btn-copiar -->
+                <button id="btn-copiar" onclick="copiar()">Copiar</button>
+
+              </section>
 
             
             
 
 </main>
 <footer>
-    <p class="Copyright">&copy;Challenge Alura-Larissa Ferreira</p>
+    <p class="Copyright">&copy;Challenge Alura-Larissa Ferreira Da Silva</p>
 </footer>
 
 
